@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="utf-8">
+  <title>Egghead Videos</title>
+  <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+</head>
+<body ng-app="app" ng-controller="AppCtrl as app">
+
+  <button class="btn-primary" ng-click="app.fadeIt()">Click to fade</button>
+  <div class="badge" hide-me="app.isHidden">Fade me</div>
+  <div class="badge" hide-me="app.isHidden">Fade me</div>
+  <div class="badge">Fade me</div>
+  <div class="badge" hide-me="app.isHidden">Fade me</div>
+  <div class="badge" hide-me="app.isHidden">Fade me</div>
+  <div class="badge" hide-me="app.isHidden">Fade me</div>
+
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.11.2/TweenMax.min.js"></script>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.6/angular.min.js"></script>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.6/angular-animate.min.js"></script>
+  <script type="text/javascript" src="app.js"></script>
+</body>
+</html>
